@@ -9,8 +9,8 @@ $sdk = new Aws\Sdk([
     'region'   => 'eu-north-1',
     'version'  => 'latest',
     'credentials' => [
-        'key'    => 'AKIA4MTWLYQAIIHI4SXS',
-        'secret' => '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',
+        'key'    => 'put in aws key',
+        'secret' => 'put in aws secret key',
     ],
 ]);
 $dynamodb = $sdk->createDynamoDb();
